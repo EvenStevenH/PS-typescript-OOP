@@ -1,7 +1,7 @@
 export class Product {
 	private _sku: string;
 	public name: string;
-	protected price: number;
+	public price: number;
 
 	constructor(sku: string, name: string, price: number) {
 		this._sku = sku; // stock keeping unit
